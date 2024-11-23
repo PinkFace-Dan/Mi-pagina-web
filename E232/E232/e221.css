@@ -1,0 +1,251 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    /*background-color:rgba(9, 136, 47, 0.685);*/
+    color: rgb(255, 255, 255);
+    background: linear-gradient(to bottom, #0c0072, #4e35bd);
+}
+p{
+    font-size: medium;
+}
+.pd0{
+    background-color: rgba(36, 97, 30, 0.568);
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+.pd2{
+    background-color: rgba(90, 151, 142, 0.555);
+    color: white;
+    padding: 1em;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.pd1{
+    background-color: rgba(90, 151, 142, 0.555);
+    color: white;
+    padding: 1em;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    opacity: 25;
+    box-shadow: 10px 5px 3px rgb(0, 0, 0);
+    border-radius: 12.4px;
+}
+
+.coutn{
+   color:  #4e35bd;
+}
+.coutn:hover{
+    color:  white;
+}
+.pd2:hover{
+    visibility: visible;
+    text-align: center;
+    background-color: cadetblue;
+    color: black;
+    border-radius: 10px;
+}
+
+.pd1:hover{
+    background-color: cadetblue;
+    color: black;
+    border-radius: 10px;
+    /*transform: scale(1.095);*/
+}
+
+.nav{
+    background-color: rgb(105, 138, 53);
+    padding: 1em;
+    text-align: center;
+}
+nav a{
+    color: white;
+    margin: 0 1em;
+    text-decoration: none;
+}
+
+.content2{
+    padding: 2em;
+}
+
+.content{
+    padding: 2em;
+}
+.flex-container{
+    display: flex;
+    text-align: center;
+    color:bisque;
+    background-color: black;
+    height: 6;
+    width: 3;
+}
+
+footer{
+    background-color: #15ff00;
+    color: white;
+    text-align: center;
+    padding: 1em 1em;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+.buttom{
+    /*background-color: rgb(0, 238, 255);*/
+    border: 2px;
+    color: rgb(0, 0, 0);
+    padding: 12px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    /*box-shadow: 8px 2px 2px rgb(0, 65, 16);*/
+    /*border-radius: 12px;*/
+}
+.buttom:hover{
+    /*background-color: white;
+    color: rgb(0, 71, 177);*/
+    animation: movere 1s infinite;
+}
+#P0EA{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+#ckal{
+    color: white;
+    background-color: rgba(56, 90, 0, 0.993);
+    text-align: center;
+}
+
+.buton{
+    background-color: transparent;
+    border: none;
+    color: whitesmoke;
+}
+
+.buton:hover{
+    color:black;
+}
+
+details{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+.animacion {
+    width: 100px;
+    height: 100px;
+    background-color: none;
+    animation: mover 2s infinite;
+}
+
+.Anbmat{
+    color: none;
+}
+
+.Anbmat:hover{
+    animation: movere 1s infinite;
+}
+
+@keyframes movere {
+    0% {
+        color: yellow;
+        background-color: #000000;
+        border-radius: 12px;
+    }
+    50% {
+        color: rgb(0, 0, 0);
+        background-color: #fff2f2;
+        border-radius: 20px;
+
+    }
+    100% {
+        color: rgb(255, 0, 0);
+        background-color: #645d5d;
+        border-radius: 12px;
+    }
+}
+
+.animacion2 {
+    background-color: none;
+    animation: Cambiar_color 1s infinite;
+}
+
+@keyframes mover {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateY(200px);
+        color: red;
+    }
+    100% {
+        transform: translateY(0);
+        visibility: none;
+    }
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.vignette {
+    padding: 10px 20px;
+    margin: 15px 0;
+    background-color: #f00606;
+    color: white;
+    border-radius: 7px;
+    transition: transform 0.3s ease;
+}
+.vignette2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px 20px;
+    margin: 15px 0;
+    background-color: #000000;
+    color: white;
+    border-radius: 7px;
+    transition: transform 0.3s ease;
+    
+}
+
+.cloa{
+    color: white;
+}
+.cloa:hover{
+    color: white;
+}
+
+.vignette2:hover {
+    transform: scale(1.8);
+    color: rgb(255, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+.vignette:hover {
+    transform: scale(1.2);
+}
+
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+
+@keyframes Cambiar_color{
+    0%{
+        color: red;
+        /*font-size: medium;*/
+    }
+    45%{
+        color: yellow;
+        /*font-size: medium;*/
+    }
+    100%{
+        color: Blue;
+        /*font-size: large;*/
+    }
+}
